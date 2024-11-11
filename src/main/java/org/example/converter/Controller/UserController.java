@@ -56,8 +56,6 @@ public class UserController {
     public void deleteById(@Valid @PathVariable  UUID id){
         userService.deleteById(id);
     }
-
-
 //    @PutMapping("")
 //    public UserDto update(@Valid UserDto user){
 //        return userService.update(user);
